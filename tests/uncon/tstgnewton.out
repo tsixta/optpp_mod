@@ -1,0 +1,204 @@
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:19 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+    i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+Function Value     =         24.2
+Norm of gradient   =        232.9
+
+
+==============================================
+
+
+		Newton Method with Trust Regions
+		 Initial Trust Region =         1000
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+    1        4.792        49.43       0.5316  D     3     0
+    2        3.062        4.051       0.1063  D     5     0
+    3        2.648        4.616       0.2126  D     6     0
+    4        2.255        17.61       0.4253  D     7     0
+    5        1.613        2.543      0.08505  D     9     0
+    6         1.24        2.562       0.1701  D    10     0
+    7        1.185        3.165      0.03402  C    12     0
+    8        1.053        3.085      0.06804  D    13     0
+    9       0.7927        2.418       0.1361  D    14     0
+   10       0.7552          2.4      0.02722  D    16     0
+   11       0.6753        2.571      0.05444  D    17     0
+   12       0.5177        1.542       0.1089  D    18     0
+   13       0.3779        7.788       0.2177  D    19     0
+   14       0.2686       0.7457      0.04355  D    21     0
+   15       0.2171        2.645       0.0871  C    22     0
+   16       0.1354        4.119       0.1742  D    23     0
+   17       0.1064       0.3896      0.03484  D    25     0
+   18      0.08873        2.963      0.06968  C    26     0
+   19       0.0487        2.701       0.1394  D    27     0
+   20      0.03768       0.2073      0.02787  D    29     0
+   21      0.02764       0.7659      0.05574  D    30     0
+   22      0.01314        1.417       0.1115  D    31     0
+   23     0.009702          0.1       0.0223  D    33     0
+   24     0.005943      0.08895      0.04459  D    34     0
+   25     0.001621       0.8378      0.08919  D    35     0
+   26    0.0001426        0.534      0.07698  N    36     0
+   27     8.23e-16    2.932e-08     0.001198  N    37     0
+checkConvg: gnorm =    2.932e-08  gtol =    6.055e-06
+
+
+=========  Solution from newton  ===========
+
+Optimization method       = Newton
+Dimension of the problem  = 2
+Return code               = 3 (Gradient tolerance test passed)
+No. iterations taken      = 27
+No. function evaluations  = 37
+No. gradient evaluations  = 0
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from newton  ===========
+
+
+    i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   1.291e-09	    2.22e-16
+     2           1	   -2.93e-08	    2.22e-16
+Function Value     =     8.23e-16
+Norm of gradient   =    2.932e-08
+
+
+==============================================
+
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:19 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+    i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+Function Value     =         24.2
+Norm of gradient   =        232.9
+
+
+==============================================
+
+
+		Newton Method with Trust Regions
+		 Initial Trust Region =         1000
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+    1        4.792        49.43       0.5316  D     3     2
+    2        3.062        4.051       0.1063  D     5     3
+    3        2.648        4.616       0.2126  D     6     4
+    4        2.255        17.61       0.4253  D     7     5
+    5        1.613        2.543      0.08505  D     9     6
+    6         1.24        2.562       0.1701  D    10     7
+    7        1.185        3.165      0.03402  C    12     8
+    8        1.053        3.085      0.06804  D    13     9
+    9       0.7927        2.418       0.1361  D    14    10
+   10       0.7552          2.4      0.02722  D    16    11
+   11       0.6753        2.571      0.05444  D    17    12
+   12       0.5177        1.542       0.1089  D    18    13
+   13       0.3779        7.788       0.2177  D    19    14
+   14       0.2686       0.7457      0.04355  D    21    15
+   15       0.2171        2.645       0.0871  C    22    16
+   16       0.1354        4.119       0.1742  D    23    17
+   17       0.1064       0.3896      0.03484  D    25    18
+   18      0.08873        2.963      0.06968  C    26    19
+   19       0.0487        2.701       0.1394  D    27    20
+   20      0.03768       0.2073      0.02787  D    29    21
+   21      0.02764       0.7659      0.05574  D    30    22
+   22      0.01314        1.417       0.1115  D    31    23
+   23     0.009702          0.1       0.0223  D    33    24
+   24     0.005943      0.08895      0.04459  D    34    25
+   25     0.001621       0.8378      0.08919  D    35    26
+   26    0.0001426        0.534      0.07698  N    36    27
+   27     8.23e-16    2.933e-08     0.001198  N    37    28
+checkConvg: gnorm =    2.933e-08  gtol =    6.055e-06
+
+
+=========  Solution from newton  ===========
+
+Optimization method       = Newton
+Dimension of the problem  = 2
+Return code               = 3 (Gradient tolerance test passed)
+No. iterations taken      = 27
+No. function evaluations  = 37
+No. gradient evaluations  = 28
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from newton  ===========
+
+
+    i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   1.305e-09	    2.22e-16
+     2           1	   -2.93e-08	    2.22e-16
+Function Value     =     8.23e-16
+Norm of gradient   =    2.933e-08
+
+
+==============================================
+

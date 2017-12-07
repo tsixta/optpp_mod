@@ -1,0 +1,310 @@
+Test problem: erosen
+Dimension   : 2
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:18 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+
+Function Value     =         24.2
+Norm of gradient   =        232.9
+Derivative Option  = 0
+
+
+		Finite-Difference Newton Method with Trust Region / PDS
+		 Initial Trust Region =        23.29
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+|| S_CP || =         1.2
+|| S_N  || =         1.2
+ TR SIZE   =       23.29
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+Creating SCHEME file: /home/tsix/tsix/high_jump/phd/lib/optpp-2.4/tests/parallel/myscheme
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0         24.2        23.77              3       1
+    1        4.728        2.971    1        67       0
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    1        4.728        36.29         0.15  D    72     2
+|| S_CP || =     0.03229
+|| S_N  || =      0.2643
+ TR SIZE   =       23.29
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0        3.733       0.2643              3       1
+    1        2.825       0.5285    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    2        2.825        13.99       0.7928  D   146     3
+|| S_CP || =      0.0262
+|| S_N  || =      0.3139
+ TR SIZE   =       23.29
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0        2.253       0.3139              3       1
+    1        1.897       0.6278    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    3        1.897        16.45       0.6489  D   220     4
+|| S_CP || =     0.07402
+|| S_N  || =     0.08912
+ TR SIZE   =       23.29
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0        1.183      0.08912              3       1
+    1       0.6924       0.3565    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    4       0.6924        12.61       0.5316  D   294     5
+|| S_CP || =     0.04537
+|| S_N  || =      0.2875
+ TR SIZE   =       23.29
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0       0.4151       0.2875              3       0
+    1       0.3482      0.07188    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    5       0.3482        1.356      0.08079  D   368     6
+|| S_CP || =    0.007345
+|| S_N  || =      0.9476
+ TR SIZE   =       46.57
+ratio =    0.007752
+
+pdsstep: Newton Simplex degenerate. Using default simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0       0.3482       0.9476              3       2
+    1       0.2734       0.2369    1        67       1
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    6       0.2734         9.59       0.2369  D   442     7
+|| S_CP || =     0.01964
+|| S_N  || =      0.1105
+ TR SIZE   =       46.57
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0       0.1255       0.1105              3       1
+    1      0.04337        0.221    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    7      0.04337        7.043       0.5442  D   516     8
+|| S_CP || =    0.008376
+|| S_N  || =     0.06527
+ TR SIZE   =       46.57
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0     0.007344      0.06527              3       1
+    1     0.003208      0.03263    1        67       0
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    8     0.003208        1.734       0.1618  D   590     9
+|| S_CP || =    0.001841
+|| S_N  || =     0.04914
+ TR SIZE   =       46.57
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0    0.0003261      0.04914              3       1
+    1    8.892e-06      0.01228    1        67       2
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+    9    8.892e-06       0.1238      0.08594  D   664    10
+|| S_CP || =   0.0001238
+|| S_N  || =    0.002343
+ TR SIZE   =       46.57
+ratio =     0.05284
+
+pdsstep: Newton Simplex degenerate. Using default simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0    3.851e-09     0.003212              3       1
+    1    3.851e-09    0.0008029    0        67       1
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+   10    3.851e-09     0.000291     0.002343  N   738    11
+|| S_CP || =   2.998e-07
+|| S_N  || =   0.0001275
+ TR SIZE   =       93.15
+
+pdsstep: Using Newton Simplex
+
+*************************  Begin Inner Iteration  *************************
+pdsopt: factor  =           32
+        beta    =           2
+
+		 PDS Iteration Summary
+
+  Iter    F(x)       ||edge||    step   fevals    jbest
+
+    0    2.271e-11    0.0001275              3       1
+    1    2.271e-11    3.187e-05    0        67       1
+pdsdone: Function tolerance passed
+
+
+*************************   End Inner Iteration   *************************
+   11    2.271e-11    8.169e-07    0.0001275  N   812    12
+checkConvg: deltaf =    3.828e-09  ftol =     1.49e-08
+wall clock time =     0.01476
+
+
+=========  Solution from finite-difference newton  ===========
+
+Optimization method       = Finite-Difference Newton
+Dimension of the problem  = 2
+Return code               = 2 (Function tolerance test passed)
+No. iterations taken      = 11
+No. function evaluations  = 812
+No. gradient evaluations  = 12
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from finite-difference newton  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   5.789e-07	    2.22e-16
+     2           1	  -5.764e-07	    2.22e-16
+
+Function Value     =    2.271e-11
+Norm of gradient   =    8.169e-07
+Derivative Option  = 0
+

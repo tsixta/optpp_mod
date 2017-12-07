@@ -1,0 +1,153 @@
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:17 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+OptNIPSLike WARNING:  Initial guess not feasible.
+NIPS may be unable to make progress.
+
+		 NIPS Iteration Summary
+
+	Nonlinear Interior-Point Method Method with Line Search 
+ 
+  Merit Function =  1 
+
+  Iter    F(x)       mu          alpha      Merit    feval    btracks  Penalty
+
+    0           20        17.89 
+    1        17.84        17.89      0.1228         8865    3   1      1e+02
+    2        14.95        17.89      0.1577         4996    5   2      1e+02
+    3        7.966        17.89      0.4994         3089    6   2      1e+02
+    4        7.514        17.89      0.1527        -6809    8   3      1e+02
+    5        6.949        17.89      0.1816        -7657   10   4      1e+02
+    6        6.308        17.89      0.2108        -8108   12   5      1e+02
+    7        5.171        17.89      0.4446        -9001   14   6      1e+02
+    8         4.71        17.89      0.2981        -9074   16   7      1e+02
+    9        4.197        17.89         0.5        -9670   18   8      1e+02
+   10        3.663        17.89           1    -1.01e+04   19   8      1e+02
+   11         3.62       0.1789      0.8864        382.4   20   8      1e+02
+   12        2.572       0.1789      0.9494        286.4   21   8      1e+02
+   13        2.176       0.1789           1        183.9   22   8      1e+02
+   14        1.928       0.1789           1          148   23   8      1e+02
+   15        1.614     0.001789      0.5144        12.52   24   8      1e+02
+   16        1.419     0.001789      0.8837        6.691   25   8      1e+02
+   17        1.361     0.001789      0.3904        5.222   27   9      1e+02
+   18        1.292    1.789e-05      0.5297        1.369   28   9      1e+02
+   19        1.194    1.789e-05      0.9667        1.219   29   9      1e+02
+   20        1.149    1.789e-05      0.6721         1.19   30   9      1e+02
+   21        1.098    1.789e-05           1         1.14   31   9      1e+02
+   22        1.078    1.789e-05       0.609        1.137   32   9      1e+02
+   23        1.052    1.789e-05           1        1.105   33   9      1e+02
+   24        1.046    1.789e-05      0.2991        1.099   35  10      1e+02
+   25        1.039    1.789e-07      0.4927         1.03   36  10      1e+02
+   26        1.032    1.789e-07           1        1.025   37  10      1e+02
+   27        1.028    1.789e-07           1        1.021   38  10      1e+02
+   28        1.025    1.789e-07           1        1.019   39  10      1e+02
+   29        1.023    1.789e-07           1        1.018   40  10      1e+02
+   30        1.022    1.789e-07           1        1.016   41  10      1e+02
+   31        1.021    1.789e-07           1        1.015   42  10      1e+02
+   32         1.02    1.789e-07           1        1.015   43  10      1e+02
+   33        1.019    1.789e-07           1        1.014   44  10      1e+02
+   34        1.018    1.789e-07           1        1.013   45  10      1e+02
+   35        1.017    1.789e-07           1        1.013   46  10      1e+02
+   36        1.016    1.789e-07           1        1.012   47  10      1e+02
+   37        1.016    1.789e-07           1        1.012   48  10      1e+02
+   38        1.015    1.789e-07           1        1.012   49  10      1e+02
+   39        1.015    1.789e-07           1        1.011   50  10      1e+02
+   40        1.014    1.789e-07           1        1.011   51  10      1e+02
+   41        1.014    1.789e-07           1        1.011   52  10      1e+02
+   42        1.014    1.789e-07           1         1.01   53  10      1e+02
+   43        1.013    1.789e-07           1         1.01   54  10      1e+02
+   44        1.013    1.789e-07           1         1.01   55  10      1e+02
+   45        1.013    1.789e-07           1         1.01   56  10      1e+02
+   46        1.013    1.789e-07           1        1.009   57  10      1e+02
+   47        1.012    1.789e-07           1        1.009   58  10      1e+02
+   48        1.012    1.789e-07           1        1.009   59  10      1e+02
+   49        1.012    1.789e-07           1        1.009   60  10      1e+02
+   50        1.012    1.789e-07           1        1.009   61  10      1e+02
+   51        1.011    1.789e-09      0.5879        1.008   62  10      1e+02
+   52        1.011    1.789e-09      0.5887        1.008   63  10      1e+02
+   53        1.011    1.789e-09      0.5894        1.008   64  10      1e+02
+   54        1.011    1.789e-09        0.59        1.007   65  10      1e+02
+   55        1.011    1.789e-09      0.5907        1.007   66  10      1e+02
+   56        1.011    1.789e-09      0.5913        1.007   67  10      1e+02
+   57         1.01    1.789e-09      0.5919        1.007   68  10      1e+02
+   58         1.01    1.789e-09      0.5925        1.007   69  10      1e+02
+   59         1.01    1.789e-09      0.5931        1.007   70  10      1e+02
+   60         1.01    1.789e-09      0.5937        1.007   71  10      1e+02
+   61         1.01    1.789e-09      0.5942        1.007   72  10      1e+02
+   62         1.01    1.789e-09      0.5948        1.007   73  10      1e+02
+   63         1.01    1.789e-09      0.5953        1.007   74  10      1e+02
+   64        1.009    1.789e-09      0.5958        1.006   75  10      1e+02
+   65        1.009    1.789e-09      0.5963        1.006   76  10      1e+02
+   66        1.009    1.789e-09      0.5968        1.006   77  10      1e+02
+L2 norm =      0.04192  ftol =        1e-06
+
+
+=========  Solution from nips  ===========
+
+Optimization method       = Nonlinear Interior-Point Method
+Dimension of the problem  = 2
+No. equalities            = 0
+No. inequalities          = 3
+Merit Function (0= NormFmu, 1 = Argaez, 2 = Vanderbei) = 1
+Return code               = 2 (OptNIPSLike: Algorithm converged)
+No. iterations taken      = 66
+No. function evaluations  = 77
+No. gradient evaluations  = 201
+No. backtracks in lnsrch  = 10
+
+
+=========  Solution from nips  ===========
+
+
+    i	    xc 		 grad  		 fcn_accrcy 
+     1      0.9954	      -2.009	    2.22e-16
+     2   2.677e-12	   5.353e-12	    2.22e-16
+Function Value     =        1.009
+Norm of gradient   =        2.009
+
+
+==============================================
+
+
+
+=========  Solution from nips  ===========
+
+
+    i	   y    
+
+
+
+=====================================
+
+
+    i	    z 	      s
+
+    1   3.042e+04   2.733e-12
+    2   1.778e-07      0.9954
+    3   3.042e+04   2.733e-12
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 150
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1e-06
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001

@@ -1,0 +1,104 @@
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:17 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+		 NIPS Iteration Summary
+
+	Nonlinear Interior-Point Method Method with Line Search 
+ 
+  Merit Function =  1 
+
+  Iter    F(x)       mu          alpha      Merit    feval    btracks  Penalty
+
+    0           -6            0 
+    1       -2.808            0           1        44.99    2   0      1e+02
+    2       -2.096            0      0.0625        43.64    7   4      1e+02
+    3      -0.6141            0           1        19.03    8   4      1e+02
+    4      -0.2501            0           1        0.452    9   4      1e+02
+    5      -0.1924            0       0.125       0.4205   13   7      1e+02
+    6       -0.147            0       0.125        0.383   17  10      1e+02
+    7      -0.1118            0       0.125       0.3423   21  13      1e+02
+    8     -0.06188            0        0.25       0.3364   24  15      1e+02
+    9     -0.03381            0        0.25       0.2846   27  17      1e+02
+   10      -0.0183            0        0.25       0.2216   30  19      1e+02
+   11    -0.004226            0         0.5       0.1931   32  20      1e+02
+   12   -0.0008614            0         0.5       0.1089   34  21      1e+02
+   13    5.382e-05            0           1      0.06587   35  21      1e+02
+   14    1.976e-07            0         0.5      0.04868   37  22      1e+02
+   15   -1.084e-10            0           1    4.776e-07   38  22      1e+02
+   16   -7.727e-12            0           1    2.708e-09   39  22      1e+02
+   17   -1.085e-12            0           1    2.092e-10   40  22      1e+02
+L2 norm =    1.662e-06  ftol =        1e-06
+
+
+=========  Solution from nips  ===========
+
+Optimization method       = Nonlinear Interior-Point Method
+Dimension of the problem  = 5
+No. equalities            = 3
+No. inequalities          = 0
+Merit Function (0= NormFmu, 1 = Argaez, 2 = Vanderbei) = 1
+Return code               = 2 (OptNIPSLike: Algorithm converged)
+No. iterations taken      = 17
+No. function evaluations  = 40
+No. gradient evaluations  = 18
+
+
+=========  Solution from nips  ===========
+
+
+    i	    xc 		 grad 		 fcn_accrcy 
+     1          -1	   1.085e-12	    2.22e-16
+     2   5.211e-07	  -2.082e-06	    2.22e-16
+     3           3	  -3.616e-13	    2.22e-16
+     4  -0.0008331	   1.302e-09	    2.22e-16
+     5  -0.0008331	   1.302e-09	    2.22e-16
+Function Value     =   -1.085e-12
+Norm of gradient   =    2.082e-06
+
+
+==============================================
+
+
+
+=========  Solution from nips  ===========
+
+
+    i	   y    
+
+    1   1.605e-13
+    2  -3.127e-07
+    3  -9.895e-13
+
+
+=====================================
+
+
+    i	    z 	      s
+
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 150
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1e-06
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001

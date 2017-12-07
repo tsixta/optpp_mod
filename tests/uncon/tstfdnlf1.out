@@ -1,0 +1,327 @@
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:20 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+
+Function Value     =         24.2
+Norm of gradient   =        232.9
+Derivative Option  = 0
+
+
+		Quasi-Newton Method with Trust Regions
+		 Initial Trust Region =        23.29
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+    1        6.333        71.09         0.12  C     7     2
+    2        4.199        10.78      0.05368  N    10     3
+    3        4.135        2.025      0.01135  N    13     4
+    4        4.113        2.161      0.01232  N    16     5
+    5        3.967        8.748       0.1032  N    19     6
+    6         2.84        5.412        0.588  N    22     7
+    7        2.742        12.86       0.1176  D    26     8
+    8         2.62        12.84      0.06634  N    29     9
+    9        2.118        10.66       0.2352  D    32    10
+   10        1.716        4.732        0.128  N    35    11
+   11        1.606        2.282       0.0393  D    39    12
+   12        1.472        4.589      0.07861  C    42    13
+   13          1.2        6.393       0.1572  D    45    14
+   14       0.9131        5.715        0.144  N    48    15
+   15       0.8096        7.453        0.107  N    51    16
+   16       0.6831        1.968      0.02821  C    55    17
+   17       0.6164          3.1      0.05642  D    58    18
+   18       0.5103        5.494       0.1128  D    61    19
+   19       0.3683        3.215       0.1049  N    64    20
+   20       0.2669        3.108       0.1217  N    67    21
+   21         0.19        4.975       0.1493  N    70    22
+   22       0.1448        1.979      0.04868  D    74    23
+   23        0.105        2.355      0.09735  D    77    24
+   24      0.05324        3.245       0.1834  N    80    25
+   25      0.03416         3.65       0.1046  N    83    26
+   26      0.02126       0.4818       0.0283  D    87    27
+   27      0.01406       0.7615       0.0566  D    90    28
+   28     0.005712        1.798       0.1132  D    93    29
+   29     0.001589       0.4471      0.05199  N    96    30
+   30    0.0005258       0.9043      0.06137  N    99    31
+   31    5.679e-05       0.2532       0.0125  N   102    32
+   32    5.276e-07      0.01623     0.009653  N   105    33
+   33    2.252e-08     0.004701     0.001168  N   108    34
+   34    5.098e-11    9.112e-05    0.0002249  N   111    35
+   35    1.896e-11    5.329e-06      5.5e-06  N   114    36
+checkConvg: deltaf =    3.202e-11  ftol =     1.49e-08
+
+
+=========  Solution from quasi-newton  ===========
+
+Optimization method       = Quasi-Newton
+Dimension of the problem  = 2
+Return code               = 2 (Function tolerance test passed)
+No. iterations taken      = 35
+No. function evaluations  = 114
+No. gradient evaluations  = 36
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from quasi-newton  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   4.817e-06	    2.22e-16
+     2           1	  -2.281e-06	    2.22e-16
+
+Function Value     =    1.896e-11
+Norm of gradient   =    5.329e-06
+Derivative Option  = 0
+
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:20 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+
+Function Value     =         24.2
+Norm of gradient   =        232.9
+Derivative Option  = 0
+
+
+		Quasi-Newton Method with Line Search
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+    1        4.408           24       0.2069  B     9     3
+    2        4.105        3.997      0.02507  N    12     4
+    3        4.076        2.229      0.01369  N    15     5
+    4        4.042        5.114      0.02528  N    18     6
+    5        3.924        13.59       0.1133  N    21     7
+    6         3.79        20.62       0.1567  N    24     8
+    7        3.592        21.98       0.1433  N    27     9
+    8        3.089        18.26       0.2407  N    30    10
+    9        2.559        6.065        0.144  N    33    11
+   10         2.35         11.3       0.1593  B    39    13
+   11        2.121        15.55       0.2285  N    42    14
+   12        1.719        4.669      0.04087  N    45    15
+   13        1.408         7.62       0.1881  N    48    16
+   14        1.193        7.069       0.1025  N    51    17
+   15        0.931        4.722       0.1131  N    54    18
+   16       0.7055        1.672       0.1044  B    60    20
+   17       0.6552        3.701      0.05081  B    66    22
+   18       0.6083        5.005      0.05018  N    69    23
+   19        0.503        5.657       0.0934  N    72    24
+   20       0.3562         2.43       0.1025  N    75    25
+   21        0.287        7.038       0.1539  N    78    26
+   22       0.1736       0.5654      0.09547  N    81    27
+   23       0.1394        1.698      0.07368  B    87    29
+   24       0.1103        4.292       0.1031  B    93    31
+   25      0.07886        3.747      0.08262  N    96    32
+   26      0.04264       0.6741       0.1012  N    99    33
+   27      0.02743        1.954      0.09181  B   105    35
+   28      0.01918        3.648       0.1036  N   108    36
+   29     0.008195        1.038      0.04008  N   111    37
+   30     0.002695        1.105      0.08883  N   114    38
+   31    0.0005732       0.2046      0.04723  N   117    39
+   32    0.0001727       0.5642        0.044  N   120    40
+   33    1.145e-05        0.134     0.004618  N   123    41
+   34    2.667e-08     0.001565     0.003153  N   126    42
+   35    4.765e-10    0.0004819    0.0003145  N   129    43
+   36    2.029e-11     4.48e-07    3.255e-05  N   132    44
+checkConvg: deltaf =    4.562e-10  ftol =     1.49e-08
+
+
+=========  Solution from quasi-newton: More and Thuente linesearch  ===========
+
+Optimization method       = Quasi-Newton
+Dimension of the problem  = 2
+Return code               = 2 (Function tolerance test passed)
+No. iterations taken      = 36
+No. function evaluations  = 132
+No. gradient evaluations  = 44
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from quasi-newton: More and Thuente linesearch  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   3.897e-07	    2.22e-16
+     2           1	  -2.212e-07	    2.22e-16
+
+Function Value     =    2.029e-11
+Norm of gradient   =     4.48e-07
+Derivative Option  = 0
+
+**********************************************************
+OPT++ version 2.4
+Job run at Wed Oct 26 12:52:20 2016
+
+Copyright (c) 2001, Sandia Corporation.  Under the terms of Contract
+DE-AC04-94AL85000, there is a non-exclusive license for use of this
+work by or on behalf of the U.S. Government.  Export of this program 
+may require a license from the United States Government. 
+
+This software is distributed under the GNU Lesser General Public License. 
+
+For more information, see the COPYRIGHT and README files in the top 
+OPT++ directory.
+**********************************************************
+
+
+=========  Initial state  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1        -1.2	      -215.6	    2.22e-16
+     2           1	         -88	    2.22e-16
+
+Function Value     =         24.2
+Norm of gradient   =        232.9
+Derivative Option  = 0
+
+
+		Quasi-Newton Method with Line Search
+
+  Iter      F(x)       ||grad||     ||step||      f/g
+
+    0         24.2        232.9
+    1        18.34          151       0.3603  B     7     2
+    2        4.598        33.76       0.1536  N    10     3
+    3        3.985        5.892      0.04381  N    13     4
+    4        3.956        1.862     0.009313  N    16     5
+    5        3.922        3.094       0.0208  N    19     6
+    6        3.728        9.582       0.1335  N    22     7
+    7        3.344        9.452       0.2092  B    26     8
+    8        2.732         3.78       0.2875  B    30     9
+    9        2.605        10.84       0.1172  B    34    10
+   10        2.572        13.06      0.04772  N    37    11
+   11        2.495        14.13      0.06111  N    40    12
+   12        2.272         14.9       0.1465  N    43    13
+   13        1.965        10.78       0.0846  N    46    14
+   14        1.578        4.153       0.1069  N    49    15
+   15        1.472        5.828       0.0673  B    53    16
+   16        1.427        13.76       0.2319  N    56    17
+   17         1.12        2.212       0.1048  N    59    18
+   18       0.9838        2.252      0.06784  N    62    19
+   19       0.8944        2.843      0.05203  B    66    20
+   20       0.8055        4.074      0.06359  B    70    21
+   21       0.7244        8.602       0.1315  N    73    22
+   22       0.5898        3.088      0.02327  N    76    23
+   23       0.4511        1.473        0.102  N    79    24
+   24       0.3767        3.792      0.09207  B    83    25
+   25       0.3019        7.114       0.1445  N    86    26
+   26        0.197       0.7227      0.07263  N    89    27
+   27       0.1409        5.787       0.1746  N    92    28
+   28       0.1015        1.764      0.03334  N    95    29
+   29      0.06194        5.177       0.1912  N    98    30
+   30      0.03616       0.4106      0.03439  N   101    31
+   31      0.01745        2.441       0.1421  N   104    32
+   32     0.008953        1.795      0.06879  N   107    33
+   33     0.003538       0.6743      0.05711  N   110    34
+   34     0.001073       0.4127      0.05612  B   114    35
+   35    0.0004206       0.7974      0.04719  N   117    36
+   36    6.051e-05       0.1962     0.007839  N   120    37
+   37     1.39e-06      0.01917      0.01186  N   123    38
+   38    1.044e-08     0.003099     0.002289  N   126    39
+   39    5.342e-11    0.0001197    0.0001533  N   129    40
+checkConvg: deltaf =    1.039e-08  ftol =     1.49e-08
+
+
+=========  Solution from quasi-newton  ===========
+
+Optimization method       = Quasi-Newton
+Dimension of the problem  = 2
+Return code               = 2 (Function tolerance test passed)
+No. iterations taken      = 39
+No. function evaluations  = 129
+No. gradient evaluations  = 40
+
+
+==========  Tolerances  ===========
+
+Machine Epsilon      = 2.22045e-16
+Maximum Step         = 1000
+Minimum Step         = 1.49012e-08
+Maximum Iter         = 100
+Maximum Backtracks   = 5
+Maximum Fcn Eval     = 1000
+Step Tolerance       = 1.49012e-08
+Function Tolerance   = 1.49012e-08
+Constraint Tolerance = 1.49012e-08
+Gradient Tolerance   = 6.05545e-06
+LineSearch Tolerance = 0.0001
+
+
+=========  Solution from quasi-newton  ===========
+
+
+   i	    xc 		 grad 		 fcn_accrcy 
+     1           1	   -0.000108	    2.22e-16
+     2           1	   5.161e-05	    2.22e-16
+
+Function Value     =    5.342e-11
+Norm of gradient   =    0.0001197
+Derivative Option  = 0
+
